@@ -1,0 +1,34 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+
+p,
+a,
+li,
+small,
+pre {
+  @apply font-body;
+}
+
+.content {
+  @apply text-sm text-blek-900;
+}
+
+.leader {
+  @apply content;
+}
+
+.ui-icon path {
+  fill-opacity: 0.25;
+}
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
